@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<weblogic-web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.5/weblogic-web-app.xsd"
+                  xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">                  
+	<virtual-directory-mapping>
+                <!-- Linux Config : uncomment the following line and set the folder with the dashboards. Update the static variable on DashboardManagerService.java accordingly -->
+		<local-path>/home/master/rta-dashboards</local-path>  
+                <!-- Windows Config : uncomment the following line and set the folder with the dashboards. Update the static variable on DashboardManagerService.java accordingly-->
+		<!--local-path>C:/JDeveloper/mywork/RealTimeAnalyticsDashboards</local-path-->
+		<url-pattern>dashboards/*</url-pattern>
+	</virtual-directory-mapping>
+</weblogic-web-app>

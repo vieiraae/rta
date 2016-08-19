@@ -1,0 +1,38 @@
+[
+  {
+    "id": "smart-building",
+    "name": "Smart Building",
+    "description": "smart building dashboard description--",
+    "icon": "fa fa-building-o"
+  },
+  {
+    "id": "smart-commerce",
+    "name": "Smart Commerce",
+    "description": "description about the smart commerce",
+    "icon": "fa fa-shopping-cart"
+  },
+  {
+    "id": "smart-city",
+    "name": "Smart City",
+    "description": "description about the smart city dashboard",
+    "icon": "fa fa-car"
+  },
+  {
+    "id": "template",
+    "name": "Smart Grid",
+    "description": "description about the smart grid dashboard",
+    "icon": "fa fa-bolt"
+  },
+  {
+    "id": "smart-airport",
+    "name": "Smart Airport",
+    "description": "description about the smart airport dashboard",
+    "icon": "fa fa-plane"
+  },
+  {
+    "id": "smart-bank",
+    "name": "Smart Bank",
+    "description": "description about the smart bank dashboard",
+    "icon": "fa fa-bank"
+  }
+]
