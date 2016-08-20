@@ -4,7 +4,7 @@
                   xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">                  
 	<virtual-directory-mapping>
                 <!-- Linux Config : uncomment the following line and set the folder with the dashboards. Update the static variable on DashboardManagerService.java accordingly -->
-		<local-path>/home/master/rta-dashboards</local-path>  
+		<local-path>/home/master/RealTimeAnalyticsDemo</local-path>  
                 <!-- Windows Config : uncomment the following line and set the folder with the dashboards. Update the static variable on DashboardManagerService.java accordingly-->
 		<!--local-path>C:/JDeveloper/mywork/RealTimeAnalyticsDashboards</local-path-->
 		<url-pattern>dashboards/*</url-pattern>
