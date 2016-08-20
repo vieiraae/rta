@@ -17,12 +17,13 @@ The server side is thin and based on a data grid architecture. The current imple
 > The application was built to be simple so that it’s easy to extend and reuse. Feel free to use/change the code according your needs and if possible contribute to the project with new features and improvements.
 
 ##Demo Enviroment (hosted on Microsoft Azure)
-https://vieiraae.github.io/rta/demo
-**_Demo instructions_**
-* Login with the user `alex` and the password `welcome1` (already set)
-* Hit the button on the top right corner to Play Simulations. The charts should wake and start to display random numbers.
-* On the left top corner hit the open button and change the dashboards.
-* Hit the edit button and change the dashboards. Saving has immediate effect (no need to refresh).
+> https://vieiraae.github.io/rta/demo
+
+**_Demo instructions:_**
+* Login with user `alex` and password `welcome1` (already set)
+* Hit the button on the top right corner to Play Simulations. The charts should start to display random data.
+* On the left top corner hit the open button and select other dashboards.
+* Hit the edit button to change the dashboards. Saving has immediate effect (no need to refresh).
 * Now open another browser (for example with a mobile phone) and login with the user `anna` and password `welcome1`
 * Test the chat between users and give it a try with the push notifications.
 * Send javascript commands (for testing purposes only) for example with: alert('hello');
@@ -48,10 +49,10 @@ The front-end uses Bootstrap 3, JQuery and different chart libraries (chartjs, d
 * Point the browser to the URL that shows in the end of the deployment. By default: http://localhost:7101/rta
 * Enter the user weblogic and the password that you used when the IntegratedWeblogicServer domain was created
 
-**_Each dashboard has the following files_**
-* _menu.html_ sets the pages on the dashboard or external references. 
-* _dashboard.html_ defines the layout with the dashboard elements (charts and other html5 components)
-* _dashboard.js_ defines the logic to update the dashboard elements when values in the data grid are added, changed or deleted
+**_Each dashboard has the following files:_**
+* __menu.html__ sets the pages on the dashboard or external references. 
+* __dashboard.html__ defines the layout with the dashboard elements (charts and other html5 components)
+* __dashboard.js__ defines the logic to update the dashboard elements when values in the data grid are added, changed or deleted
 
 ##Recommend Installation and Deployment for Test and Prod Environments:
 ![RTA Topology][topology]
