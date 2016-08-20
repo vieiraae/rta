@@ -4,7 +4,7 @@
 
   var JSON_TYPE = /json/;
   var README = /README/;
-  var strapdown = 'http://strapdownjs.com/v/0.1/strapdown.js';
+  var strapdown = 'https://vieiraae.github.io/rta/javascripts/strapdown.js';
   var githubUrl = 'https://api.github.com/';
 
   function get(url, headers, callback) {
