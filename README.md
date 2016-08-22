@@ -12,6 +12,7 @@ The server side is thin and based on a data grid architecture. The current imple
 * Weblogic provides the management layer (config, monitoring, wlst, etc.)
 * 0%  server side includes (except the login page)
 * Built to be production ready!
+* Works great with Big Data (Spark, Storm & the likes)
 * Works great on the Public Cloud...
 
 > The application was built to be simple so that it’s easy to extend and reuse. Feel free to use/change the code according your needs and if possible share your improvements with the community.
@@ -31,7 +32,7 @@ The server side is thin and based on a data grid architecture. The current imple
 ##Architecture
 ![RTA Architecture][architecture]
 [architecture]: https://raw.githubusercontent.com/vieiraae/rta/master/docs/images/rta-architecture.png "RTA Architecture"
-The front-end uses Bootstrap 3, JQuery and different chart libraries (chartjs, d3s, c3, etc.). It renders well on mobile and desktop interfaces. The layout is based on the AdminLTE theme and the dashboard authoring tool is based on the Ace editor.
+The front-end uses Bootstrap 3, JQuery and different chart libraries (chartjs, d3s, c3, etc.). Others JS libraries may be used to show real-time data. For example using SVG with country maps, buildings, etc. It renders well on mobile and desktop interfaces. The layout is based on the AdminLTE theme and the dashboard authoring tool is based on the Ace editor.
 
 ##Recommend Installation and Deployment for Dev Environment:
 * Create a base directory for the project and navigate to the directory with a command line 
