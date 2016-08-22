@@ -1,6 +1,6 @@
 # Real-Time Analytics
 
->This projects leverages HTML5 and websockets to provide lightweight Analytics in Real-Time.
+>This project leverages HTML5 and websockets to provide lightweight Analytics in Real-Time.
 
 The server side is thin and based on a data grid architecture. The current implementation uses Coherence and Weblogic as back-end components. Coherence provides several mechanisms to ingest data in the Grid: REST API and SDK’s in Java, .Net & C++.
 
